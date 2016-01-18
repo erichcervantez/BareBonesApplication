@@ -25,6 +25,11 @@ public class Jedi
         this.lastName = value;
     }
 
+    public String useForce()
+    {
+        return "I am using the FORCE!";
+    }
+
     @Override
     public String toString()
     {
